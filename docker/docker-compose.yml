@@ -2,7 +2,7 @@
   services:
     zigbee2mqtt:
       container_name: zigbee2mqtt
-      image: koenkk/zigbee2mqtt
+      image: striton1/zigbee2mqtt
       volumes:
         - ./data:/app/data
       devices:
